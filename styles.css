@@ -1,0 +1,31 @@
+body{
+    font-family: Courier New;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 443px;
+    background-color: bisque;
+}
+.menu{
+    border: 1px solid black;
+    height: 200px;
+    width: 220px;
+}
+.showplace{
+    border: 1px solid black;
+    border-left: none;
+    height: 200px;
+    width: 220px;
+}
+.safezone{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-top: none;
+    min-height: 200px;
+    width: 441px;
+}
+span{
+    padding: 5px;
+}
