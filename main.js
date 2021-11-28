@@ -25,7 +25,7 @@ function exploreSelection() {
 function hideChord() {
     let hiddenElement = document.getElementById('showedChord');
     // console.log(hiddenElement);
-    hiddenElement.style.display = 'none';
+    hiddenElement.innerHTML = 'Please, choose the chord';
 }
 
 function copying() {
