@@ -17,7 +17,7 @@ function exploreSelection() {
     } else if (wholeChordName == 'chord_' && (selectedMeaning1.value == '' && selectedMeaning2.value == '')) {
         area.innerHTML = 'Please, choose the chord';
     } else {
-        area.innerHTML = 'Oops!<br>Such chord dose not exist';
+        area.innerHTML = 'Oops!<br>Such chord does not exist';
     }
     return chordsArray[wholeChordName];
 }
