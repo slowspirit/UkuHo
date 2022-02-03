@@ -1,4 +1,4 @@
-# UkuHo
+# UkuCho
 ## Ukulele chords application 
 #### year 2019 
 
