@@ -1,31 +1,100 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
 body{
     font-family: Courier New;
 }
 .container{
+
+}
+.app{
     display: flex;
     flex-wrap: wrap;
-    width: 443px;
-    background-color: bisque;
+    margin: 20px auto;
+    width: 500px;
+    background-color: #FFE4C4;
 }
 .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 1px solid black;
-    height: 200px;
-    width: 220px;
+    height: 250px;
+    width: 50%;
+    padding: 10px;
 }
 .showplace{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 1px solid black;
     border-left: none;
-    height: 200px;
-    width: 220px;
+    height: 250px;
+    width: 50%;
+    padding: 10px;
 }
 .safezone{
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
     border-top: none;
-    min-height: 200px;
-    width: 441px;
+    min-height: 349px;
+    width: 100%;
+    padding: 10px;
 }
 span{
     padding: 5px;
+    margin-bottom: 10px;
+}
+span:nth-child(even){
+    margin-right: 35px;
+}
+button{
+    letter-spacing: 2px;
+}
+.uk-select:focus{
+    border-color: #A67740;
+}
+.selectBtn{
+    width: 100%;
+    background-color: #A67740;
+}
+.selectBtn:hover{
+    background-color: #A65740;
+}
+
+.uk-select{
+    width: 45%;
+}
+
+.buttons-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hideBtn{
+    background-color: #A67740;
+}
+.hideBtn:hover{
+    background-color: #A65740;
+}
+.hideBtn:disabled{
+    border-color: #A67740;
+    color:#A67740;
+}
+.hideBtn:disabled:hover{
+    background-color: transparent;
+}
+.copyBtn{
+    background-color: #A67740;
+}
+.copyBtn:hover{
+    background-color: #A65740;
+}
+.copyBtn:disabled{
+    border-color: #A67740;
+    color:#A67740;
+}
+.copyBtn:disabled:hover{
+    background-color: transparent;
 }
