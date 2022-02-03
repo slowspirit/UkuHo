@@ -3,20 +3,19 @@ document.querySelector('#list_of_chords2').addEventListener('change', exploreSel
 document.querySelector('.selectBtn').addEventListener('click', exploreSelection);
 document.querySelector('.hideBtn').addEventListener('click', hideChord);
 document.querySelector('.copyBtn').addEventListener('click', copying);
+document.querySelector('.refreshBtn').addEventListener('click', refreshing);
 
+document.querySelector('.refreshBtn').style.display = 'none';
 
-function watchingShowplace() {
-    let watchedElem = document.querySelector('.showedChord').textContent;
-    if (watchedElem === 'Please, choose the chord') {
-        document.querySelector('.hideBtn').setAttribute("disabled", "disabled");
-    } else {
-        document.querySelector('.hideBtn').removeAttribute("disabled", "disabled");
-    }
+function refreshing() {
+    document.querySelector('.safezone').innerText = '';
+    document.querySelector('.refreshBtn').style.display = 'none';
 }
+
 
 function exploreSelection() {
     document.querySelector('.hideBtn').removeAttribute("disabled", "disabled");
-    // document.querySelector('.copyBtn').removeAttribute("disabled", "disabled");
+    document.querySelector('.selectBtn').removeAttribute("disabled", "disabled");
     let selectedMeaning1 = document.getElementById('list_of_chords1');
     let selectedMeaning2 = document.getElementById('list_of_chords2');
     let wholeChordName = 'chord_' + selectedMeaning1.value + selectedMeaning2.value;
@@ -30,9 +29,12 @@ function exploreSelection() {
     } else if (wholeChordName == 'chord_' && (selectedMeaning1.value == '' && selectedMeaning2.value == '')) {
         area.innerHTML = 'Please, choose the chord';
         document.querySelector('.hideBtn').setAttribute("disabled", "disabled");
+        document.querySelector('.copyBtn').setAttribute("disabled", "disabled");
+        document.querySelector('.selectBtn').setAttribute("disabled", "disabled");
     } else {
         area.innerHTML = 'Oops!<br>Such chord dose not exist';
         document.querySelector('.copyBtn').setAttribute("disabled", "disabled");
+        document.querySelector('.selectBtn').setAttribute("disabled", "disabled");
     }
     return chordsArray[wholeChordName];
 }
@@ -50,5 +52,6 @@ function copying() {
         let copiedElement = document.createElement('span');
         copiedElement.innerHTML = exploreSelection();
         safezone.appendChild(copiedElement);
+        document.querySelector('.refreshBtn').style.display = 'inline-block';
     }
 }

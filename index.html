@@ -3,9 +3,10 @@
 
 <head>
     <title>UkuHo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="uikit.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
-
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <div class="app">
             <div class="menu">
                 UkuCho
-                <br />
+                <br>
                 Ukulele Chords
                 <div class="select-group">
                     <select class="uk-select" id="list_of_chords1">
@@ -48,24 +49,21 @@
                         <option>dim</option>
                     </select>
                 </div>
-                <button class="uk-button uk-button-primary selectBtn">Select</button>
+                <button class="uk-button uk-button-primary selectBtn" disabled>Select</button>
             </div>
             <div class="showplace" id="showplace">
                 <div class="showedChord" id="showedChord">Please, choose the chord</div>
                 <div class="buttons-group">
                     <button class="uk-button uk-button-primary hideBtn" disabled>Hide</button>
                     <button class="uk-button uk-button-secondary copyBtn" disabled>Copy</button>
+                    <button class="uk-button uk-button-secondary uk-button-small refreshBtn">x</button>
                 </div>
             </div>
-            <!-- 
-            <br /> -->
-
             <div class="safezone" id="safezone">
-                <div class="showedChord" id="showedChord"></div>
             </div>
         </div>
     </div>
-    <script src="uikit.min.js"></script>
+    <!-- <script src="uikit.min.js"></script> -->
     <script src="main.js"></script>
     <script src="chords.js"></script>
 </body>
