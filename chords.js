@@ -87,7 +87,7 @@ var chordsArray = {
   chord_F6: "Chord F6    <br><br>A &nbsp||---|-o-|---|---|<br>E &nbsp||---|-o-|---|---|<br>C &nbsp||---|-o-|---|---|<br>g &nbsp||---|-o-|---|---|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5",
   chord_Fm6: "Chord Fm6   <br><br>A &nbsp||---|---|-o-|---|<br>E &nbsp||-o-|---|---|---|<br>C &nbsp||---|-o-|---|---|<br>g &nbsp||-o-|---|---|---|<br>",
   chord_F7: "Chord F7    <br><br>A &nbsp||---|---|-o-|---|<br>E &nbsp||-o-|---|---|---|<br>C &nbsp||---|---|-o-|---|<br>g &nbsp||---|-o-|---|---|<br>",
-  chord_Fm7: "Chord Fm7   <br><br>A &nbsp||---|---|--|-o-|<br>E &nbsp||--|-o-|---|---|<br>C &nbsp||---|--|-o-|---|<br>g &nbsp||---|--|-o-|---|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4",
+  chord_Fm7: "Chord Fm7   <br><br>A &nbsp||---|---|---|-o-|<br>E &nbsp||---|-o-|---|---|<br>C &nbsp||---|---|-o-|---|<br>g &nbsp||---|---|-o-|---|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4",
   chord_Fmaj7: "Chord Fmaj7 <br><br>A &nbsp||---|---|---|-o-|<br>E &nbsp||---|-o-|---|---|<br>C &nbsp||---|-o-|---|---|<br>g &nbsp||---|-o-|---|---|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5",
   chord_F7sus4: "Chord F7sus4<br><br>A &nbsp||---|---|-o-|---|<br>E &nbsp||---|---|-o-|---|<br>C &nbsp||---|-o-|---|---|<br>g &nbsp||---|-o-|---|---|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5",
   chord_F9: "Chord F9    <br><br>A &nbsp||---|---|-o-|---|<br>E &nbsp||---|---|-o-|---|<br>C &nbsp||---|---|-o-|---|<br>g &nbsp||---|-o-|---|---|<br>",
