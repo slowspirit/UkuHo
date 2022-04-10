@@ -4,6 +4,7 @@
 https://slowspirit.github.io/UkuHo/
 
 #### year 2019 
+<img>
 
 --- ru --- <br>
 Приложение справочник аккордов укулеле. <br>
