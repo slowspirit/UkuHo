@@ -2,9 +2,8 @@
 ## Ukulele chords application 
 
 https://slowspirit.github.io/UkuHo/
-
-#### year 2019 
-<img>
+ 
+<img src="./UkuHo.jpg">
 
 --- ru --- <br>
 Приложение справочник аккордов укулеле. <br>
