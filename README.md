@@ -3,7 +3,7 @@
 
 https://slowspirit.github.io/UkuHo/
  
-<img src="./UkuHo.jpg">
+<img src="./UkuHo.png">
 
 Pet-project.<br>
 The dictionary of ukulele chords.<br>
